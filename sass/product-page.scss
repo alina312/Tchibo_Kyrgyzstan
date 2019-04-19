@@ -1,0 +1,170 @@
+.card-goods {
+    position: relative;
+    margin-bottom: 60px;
+    .card-goods-left {
+        width: 50%;
+        position: relative;  
+        margin-top: 60px; 
+        @media (max-width: 576px) {       
+           margin-left: 20px;
+               
+        }                
+        & img {           
+            width: 80%;
+            height: auto;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            transition: all 0.3s ease;
+           }           
+           .active {
+            opacity: 1;           
+        }
+        .card-slider-image {
+            width:100%;    
+          
+            & img {               
+                position: relative;
+                opacity: 2;
+                width: 20%;
+                top: 460px;
+                border: 1px solid $llblue;
+                @media (max-width: 768px) {        
+                    top: 400px;
+                } 
+                @media (max-width: 992px) {        
+                    top: 300px;
+                } 
+            }
+        }
+    }            
+    .card-goods-right {
+        width: 50%;
+        margin-top: 60px; 
+        @media (max-width: 768px) {                    
+            top: 300px;
+            margin-left: 20px;       
+        }           
+        .card-product-description {            
+            margin-bottom: 40px;        
+            .card-title {
+                font-size: 12px;
+                color: $blue;               
+                text-transform: uppercase;               
+                font-weight: 600;
+            }
+            .card-main-title {
+                font-weight: 600;
+                font-size: 40px;
+                color: $gold;                
+                margin-bottom: 20px;
+            }
+            .product-price {
+                color: $blue;
+                font-weight: 400;
+                font-size: 20px;               
+            }
+            & p, li {
+                font-size: 16px;
+                font-weight: 300;
+                color: $llgrey; 
+                line-height: normal;               
+            }
+        }
+        .product-configuration {
+            display: flex;
+            flex-direction: row;         
+            }                         
+            .card-product-color {
+                margin-bottom: 30px;
+                width: 50%;
+                & p {
+                    font-weight: 600;
+                }          
+                .color-choose div{
+                    display: inline-block;                
+                    & input[type="radio"] {
+                    display: none;
+                        & + label span {
+                            display: inline-block;
+                            width: 40px;
+                            height: 40px;
+                            margin: -1px 4px 0 0;
+                            vertical-align: middle;
+                            cursor: pointer;
+                            border-radius: 50%;
+                            border: 2px solid $white;
+                            box-shadow: 0 1px 3px 0 $text;
+                        }
+                        &#silver + label span {
+                            background-color: $silver;                   
+                        }
+                    
+                        &#red + label span {
+                            background-color: $red;    
+                            
+                        }
+                
+                        &#black + label span {                   
+                            background-color: $text;
+                        }
+                                    
+                        &:checked + label span {
+                                background-image: url(images/check-icon.svg);
+                                background-repeat: no-repeat;
+                                background-position: center;
+                        }
+                    }
+                }
+            }  
+            .card-product-quantity {
+                width: 50%;
+                p {
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                }
+                input {                    
+                    border: none;
+                    text-align: center;
+                    width: 32px;
+                    font-size: 16px;
+                    color: $llgrey;
+                    font-weight: 300;
+                  }
+                & button[class*=btn] {
+                    width: 30px;
+                    height: 30px;
+                    background-color: $llblue;
+                    border-radius: 6px;
+                    border: none;
+                    cursor: pointer;
+                }
+            } 
+        }        
+        .card-product-cart-button{            
+            & button {
+                background-color: $blue;
+                color: $gold;
+                border: none;
+                width: 400px;
+                height: 40px;
+                text-align: center;
+                border-radius: 4px;
+                font-size: 18px;         
+               
+                @media (max-width: 576px) {                    
+                    width: 100px        
+                }      
+                @media (max-width: 992px) {        
+                    width: 300px;
+                } 
+            }
+        }
+    } 
+    .product-related {
+        color: $gold;
+        margin-top: 60px;       
+    } 
+    
+   
