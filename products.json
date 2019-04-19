@@ -1,0 +1,262 @@
+{
+  "men-clothes": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "aqwessrdtf",
+        "price": 1400.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "Футболка-Performance",
+        "price": 800.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "Рубашка-Blue Denim",
+        "price": 1200.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "Свитер-Pullover",
+        "price": 1400.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "Рубашка-Running shirt",
+        "price": 880.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "Рубашка-Long Sleeve",
+        "price": 1320.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-6.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": "Футболка-Functional",
+        "price": 450.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-7.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": "Сумка-Crossbag",
+        "price": 3200.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-8.jpg"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "girl-clothes": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "Рубашка",
+        "price": 1400.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "Футболка-Performance",
+        "price": 800.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "Рубашка-Blue Denim",
+        "price": 1200.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "Свитер-Pullover",
+        "price": 1400.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "Рубашка-Running shirt",
+        "price": 880.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "Рубашка-Long Sleeve",
+        "price": 1320.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-6.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": "Футболка-Functional",
+        "price": 450.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-7.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": "Сумка-Crossbag",
+        "price": 3200.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/men_clothes/m-img-8.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

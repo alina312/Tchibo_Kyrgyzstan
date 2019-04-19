@@ -1,0 +1,145 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  font-family: 'Roboto', sans-serif;
+  z-index: 1;
+}
+
+.info {
+  max-width: 120px;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  color: #857650;
+  line-height: 1.5;
+}
+.login {
+  list-style-type: none;
+  text-align: center;
+  cursor: pointer;
+}
+.login a {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+  color: #857650;
+}
+.login button {
+  border-radius: 8px;
+  margin: 2px 2px;
+  padding: 2px;
+  width: 90px;
+  background: none;
+}
+
+.logo {
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90px;
+  height: 90px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin-top: -20px;
+
+  a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #00205d !important;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+
+nav.black {
+  background-color: white;
+  height: 105px;
+  transition: background-color 1s ease;
+}
+.burger {
+  display: none;
+  cursor: pointer;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: black;
+}
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+  nav {
+    background-color: white;
+    display: flex;
+    align-items: unset;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 45%;
+    position: absolute;
+    right: 0px;
+    height: 60vh;
+    top: 8vh;
+    transition: transform 0.5s ease-in;
+    transform: translateX(100%);
+  }
+  .nav-links a {
+    color: black;
+  }
+  .burger {
+    display: block;
+    margin-top: 3px;
+  }
+  .logo {
+    width: 70px;
+    height: 45px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 4.5%;
+  }
+}
+.nav-active {
+  transform: translateX(0%);
+  background-color: white;
+}
+@keyframes navLinkAnimation {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.container-fluid {
+  padding: 0;
+  max-width: 1450px;
+}
+
+// traversy code
