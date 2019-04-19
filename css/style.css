@@ -2919,8 +2919,7 @@ nav.black {
     border-radius: 50%; }
 
 .img-between-block {
-  margin-top: 50px;
-  height: auto;
+  margin-top: 60px;
   text-align: center; }
   @media (max-width: 576px) {
     .img-between-block {
@@ -2952,6 +2951,9 @@ nav.black {
   @media (max-width: 992px) {
     .title-link {
       margin-bottom: 30px; } }
+
+.title-card-slider {
+  margin-top: 60px; }
 
 .img-box {
   width: 33%; }
@@ -2962,8 +2964,7 @@ nav.black {
     border-radius: 50%; }
 
 .img-between-block {
-  margin-top: 50px;
-  height: auto;
+  margin-top: 60px;
   text-align: center; }
   @media (max-width: 576px) {
     .img-between-block {
@@ -2995,6 +2996,9 @@ nav.black {
   @media (max-width: 992px) {
     .title-link {
       margin-bottom: 30px; } }
+
+.title-card-slider {
+  margin-top: 60px; }
 
 *::after {
   box-sizing: border-box; }
