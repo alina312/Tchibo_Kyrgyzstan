@@ -2920,7 +2920,7 @@ nav.black {
 
 .img-between-block {
   margin-top: 60px;
-  height: auto;
+  height: 150px;
   text-align: center; }
   @media (max-width: 576px) {
     .img-between-block {
@@ -2966,7 +2966,7 @@ nav.black {
 
 .img-between-block {
   margin-top: 60px;
-  height: auto;
+  height: 150px;
   text-align: center; }
   @media (max-width: 576px) {
     .img-between-block {
