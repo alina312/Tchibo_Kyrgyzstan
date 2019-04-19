@@ -21,6 +21,7 @@ class Products {
       let result = await fetch ('/products.json');
       let data = await result.json ();
       let urlParam = window.location.hash.substr (1) || 'men-clothes';
+      console.log (urlParam);
       let products = data[urlParam];
 
       products = products.map (item => {
@@ -233,6 +234,18 @@ document.addEventListener ('DOMContentLoaded', () => {
       ui.getBagButtons ();
       ui.cartLogic ();
     });
+  window.addEventListener ('hashchange', () => {
+    products
+      .getProducts ()
+      .then (products => {
+        ui.displayProducts (products);
+        Storage.saveProducts (products);
+      })
+      .then (() => {
+        ui.getBagButtons ();
+        ui.cartLogic ();
+      });
+  });
 });
 
 // sidebar

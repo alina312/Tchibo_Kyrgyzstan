@@ -140,7 +140,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "../images/men_clothes/m-img-1.jpg"
+              "url": "../images/women_clothes/w-img-1.jpg"
             }
           }
         }
@@ -156,7 +156,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "../images/men_clothes/m-img-2.jpg"
+              "url": "../images/women_clothes/w-img-2.jpg"
             }
           }
         }
@@ -172,7 +172,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "../images/men_clothes/m-img-3.jpg"
+              "url": "../images/women_clothes/w-img-3.jpg"
             }
           }
         }
@@ -188,7 +188,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "../images/men_clothes/m-img-4.jpg"
+              "url": "../images/women_clothes/w-img-4.jpg"
             }
           }
         }
@@ -204,7 +204,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "../images/men_clothes/m-img-5.jpg"
+              "url": "../images/women_clothes/w-img-5.jpg"
             }
           }
         }
@@ -220,7 +220,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "../images/men_clothes/m-img-6.jpg"
+              "url": "../images/women_clothes/w-img-6.jpg"
             }
           }
         }
@@ -236,7 +236,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "../images/men_clothes/m-img-7.jpg"
+              "url": "../images/women_clothes/w-img-7.jpg"
             }
           }
         }
@@ -252,7 +252,7 @@
         "image": {
           "fields": {
             "file": {
-              "url": "../images/men_clothes/m-img-8.jpg"
+              "url": "../images/women_clothes/w-img-8.jpg"
             }
           }
         }
