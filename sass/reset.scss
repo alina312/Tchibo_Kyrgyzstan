@@ -6,6 +6,7 @@
 
 @mixin changeColor () {
     color: $gold;
+    text-decoration: none;
     &:hover {         
         color: $lgold;
         text-decoration: none; 

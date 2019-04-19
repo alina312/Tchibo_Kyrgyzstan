@@ -1,0 +1,16 @@
+.category-container {  
+    margin-top: 40px;    
+
+   .category-content {
+       width: 15%; 
+       margin: 1em;
+       .category-content-img {
+        height: auto;
+        width: 100%
+       }
+       .category-content-footer {
+           margin-top: 1.5em;
+       }
+   }
+   
+}

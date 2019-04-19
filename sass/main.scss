@@ -1,0 +1,38 @@
+.img-box {
+    width: 33%;    
+    .img-top {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        border-radius: 50%;             
+    }     
+}
+
+.img-between-block {
+    margin-top: 60px;
+    text-align: center;  
+    @media (max-width: 576px) {                    
+        margin-top: 10px;      
+    }      
+    @media (max-width: 992px) {        
+        margin-top: 30px;
+    }   
+}
+
+.title-about { 
+    text-align: center;
+    margin-top: 60px;  
+    @include changeColor;  
+}
+
+.title-link {
+    margin-bottom: 2.5em;
+    @include changeColor;
+    text-align: center;
+    @media (max-width: 576px) {                    
+        margin-bottom: 10px;   
+    }      
+    @media (max-width: 992px) {        
+        margin-bottom: 30px;
+    }   
+}
