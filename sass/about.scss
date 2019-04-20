@@ -32,14 +32,15 @@
     }
 
 }
-  .images-instagram-container {   
-        margin-top: 40px;   
-        .images-instagram {
-            width: 15%; 
-            margin: 15px;     
-        & img {
-            height: auto;
-            width: 100%
+.images-instagram-container {   
+    margin-top: 40px;   
+    .images-instagram {
+        width: 15%; 
+        margin: 15px;     
+    & img {
+        height: auto;
+        width: 100%
         }        
     }  
 }
+  
