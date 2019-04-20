@@ -1,16 +1,14 @@
+        
 .card-goods {
     position: relative;
     margin-bottom: 60px;
     .card-goods-left {
         width: 50%;
         position: relative;  
-        margin-top: 60px; 
-        @media (max-width: 576px) {       
-           margin-left: 20px;
-               
-        }                
+        margin-top: 60px;               
+                       
         & img {           
-            width: 80%;
+            width: 90%;
             height: auto;
             position: absolute;
             left: 0;
@@ -20,32 +18,31 @@
            }           
            .active {
             opacity: 1;           
-        }
+            }
         .card-slider-image {
-            width:100%;    
-          
+            width:100%;            
             & img {               
                 position: relative;
                 opacity: 2;
                 width: 20%;
-                top: 460px;
+                top: 500px;
                 border: 1px solid $llblue;
-                @media (max-width: 768px) {        
-                    top: 400px;
-                } 
-                @media (max-width: 992px) {        
-                    top: 300px;
-                } 
+                @media (max-width: 576px) {                    
+                    top: 370px        
+                    }   
+                 @media (max-width: 768px) {                    
+                    top: 400px        
+                    }         
+                }
             }
         }
-    }            
+              
     .card-goods-right {
         width: 50%;
         margin-top: 60px; 
-        @media (max-width: 768px) {                    
-            top: 300px;
-            margin-left: 20px;       
-        }           
+        @media (max-width: 576px) {                    
+            top: 400px        
+            }   
         .card-product-description {            
             margin-bottom: 40px;        
             .card-title {
@@ -154,17 +151,25 @@
                 font-size: 18px;         
                
                 @media (max-width: 576px) {                    
-                    width: 100px        
+                    width: 100px;
+                    text-align: center;        
                 }      
                 @media (max-width: 992px) {        
                     width: 300px;
+                    text-align: center;
                 } 
             }
         }
-    } 
-    .product-related {
+}
+
+.product-related {
         color: $gold;
-        margin-top: 60px;       
+        margin-top: 60px;  
+        @media (max-width: 576px) {                    
+            margin-top: 390px; 
+            margin-left: 10px;     
+            }        
     } 
-    
-   
+  
+  
+        
