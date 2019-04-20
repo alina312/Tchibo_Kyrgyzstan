@@ -3261,11 +3261,13 @@ nav.black {
       transform: translateY(-7px); }
 
 .images-instagram-container {
-  margin-top: 60px; }
-  .images-instagram-container img {
-    width: 33%;
-    height: auto;
-    padding: 20px; }
+  margin-top: 40px; }
+  .images-instagram-container .images-instagram {
+    width: 15%;
+    margin: 15px; }
+    .images-instagram-container .images-instagram img {
+      height: auto;
+      width: 100%; }
 
 .titie-section {
   margin-bottom: 30px;
