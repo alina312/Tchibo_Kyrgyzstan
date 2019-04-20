@@ -1,0 +1,222 @@
+
+#fade {
+	position: fixed;
+    top: 0;
+    left: 0; 
+	z-index: 9999; 
+	display: none; /*--по умолчанию скрыт--*/
+	width: 100%;
+    height: 100%;
+	background: #000;
+	opacity: .70;/* Полупрозрачность слоя затемнения */
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+/*--Модальное окно--*/
+.popup_block{
+	position: fixed;
+	top: 50%;
+    left: 50%;
+	z-index: 99999;
+	display: none; /*--по умолчанию скрыт--*/
+	float: left;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box; 
+    box-sizing: content-box;
+	padding: 15px;
+	border: 10px solid#00205d;
+/*-- скругленные углы--*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #fff;
+/*--тени для блока--*/
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+    color: #000;
+	font-size: .9em;
+}
+/*--Фиксированное позиционирование*/
+*html #fade {
+	position: absolute;
+}
+*html .popup_block {
+	position: absolute;
+}
+/*--Блок содержания--*/
+.note{
+	margin:0 0 30px 0;
+}
+.note img{
+    float:left;
+	margin:5px 10px 5px 0;
+	width: 100px;
+	height: 100px;
+}
+.note h1{
+	color: #00205d;
+	text-shadow: 0 1px 3px rgba(0,0,0,.3);
+    font:24px Monotype Corsiva, Arial;   
+    text-align: center   
+    }
+.note h2{
+    color: #00205d;
+    text-shadow: 0 1px 3px rgba(0,0,0,.3);
+    font: 18px Monotype Corsiva, Arial;   
+    text-align: center   
+}
+/* формируем кнопку закрытия */
+.close {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    background-color: rgba(61, 61, 61, 0.8);
+    -webkit-box-shadow: 0px 0px 10px #000;
+    -moz-box-shadow: 0px 0px 10px #000;
+    box-shadow: 0px 0px 10px #000;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 20px;
+    -webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    -ms-transition: all ease .8s;
+    -o-transition: all ease .8s;
+    transition: all ease .8s;
+}
+.close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    font-size: 12px;
+}
+.close:hover {
+    background-color: rgba(252, 20, 0, 0.8);
+/*--крутим кнопку при наведении--*/
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);    
+}
+/* контактная форма */
+#form{
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 10px;
+/* устанавливаем необходимую ширину формы в зависимости от дизайна
+ ** форма отлично растягивается */
+    width: 100%;
+    border: 1px solid #857650;;
+/* закругляем углы */
+    border-radius:8px;
+    background: none repeat scroll 0 0 #FFFFFF;
+/* добавляем тени для блока*/
+    box-shadow: 0 0 5px #CCCCCC, 1px 1px 0 #FFFFFF inset, -1px -1px 0 #FFFFFF inset, 0 0 15px #DDDDDD inset;
+    text-align: left;
+}
+/* формируем элементы внутри формы */
+#form fieldset{
+    display:inline;
+    float:left;
+    margin:0;
+    margin-left:26px;
+    padding:0;
+    width: 42%;
+    border:none;	
+}		
+ 
+#form p{
+    margin:.5em 0;
+}
+/* подписи к полям ввода */	
+#form label{
+    display:block;
+    margin-bottom:1px;
+    color:#857650;
+}	
+#form input, #form textarea{
+    padding:3px;
+/* отключаем бордюры у инпутов и текстового поля */
+    border: none;
+/* закругляем углы полей ввода */
+    -webkit-border-radius:.3em;
+    -moz-border-radius:.3em;
+    border-radius:.3em;		
+    background-color: #F7F7F7;
+/* добавляем внутренние тени у инпутов и текстового поля */
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+    color: #857650;
+    font:13px Trebuchet MS, Arial, Helvetica, Sans-Serif;
+}
+#form input {
+/* устанавливаем ширину инпутов */
+width:90%;
+}
+/* изменяем оформление полей ввода при фокусе */
+#form input:focus, #form textarea:focus {
+  background: #F2F2F2;
+  box-shadow: inset 0 0 5px #00205d, inset 0 1px 2px  #00205d;
+  color: #333;
+}
+#form textarea{
+    overflow:auto;
+    width:100%;
+/* устанавливаем ширину текстового поля */
+    height:120px;
+}
+/* формируем нижний сектор формы */					
+#form p.submit{
+    clear:both;
+    margin:0;
+    padding: 10px 25px 20px;
+    text-align:right;
+}
+/* оформляем кнопку отправки */	
+#form button{
+/* устанавливаем необходимую ширину кнопки */
+    border: solid 1px #00205d;
+/* закругляем углы кнопки */
+    border-radius: 5px;
+    background-color: #00205d;
+/* градиентная заливка для современных браузеров */	
+    background-image:-moz-linear-gradient(center top , #00205d, #00205d);
+    background-image: -webkit-linear-gradient(center top, #00205d, #00205d);
+    background-image: -ms-linear-gradient(#00205d, #00205d);
+    background-image:-o-linear-gradient(center top ,#00205d, #00205d);
+/* добавляем внешние тени */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    color:#fff;
+    padding:0 12px;
+    text-align:center;
+    line-height:28px;
+/* градиент для IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#5BC0DE', EndColorStr='#2F96B4', GradientType=0); 
+    cursor:pointer;
+}
+/* изменяем оформление кнопки при наведении */
+#form button:hover {
+    border-color:#00205d;
+    box-shadow: none;
+}
+/* изменяем оформление кнопки при нажатии */
+#form button:active {
+    border-bottom: 1px solid #00205d;
+    background-image:-moz-linear-gradient(#00205d, #00205d); /* Firefox */
+    background-image: -webkit-linear-gradient(#00205d, #00205d); /* Chrome, Safari */
+    background-image: -ms-linear-gradient(#00205d, #00205d); /* IE-10 */
+    background-image:-o-linear-gradient(#00205d, #00205d); /* Opera */
+/* добавляем внутренние тени */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+/* градиент для IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#00205d', EndColorStr='#5BC0DE', GradientType=0);
+}
+/* конец формы */
